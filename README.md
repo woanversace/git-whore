@@ -1,6 +1,6 @@
 # git-whore :neckbeard:
 
-> Find the ones doing less everyday, (Don't trust the whore)
+> Find the ones doing less everyday ..do not just trust the blabber
 
 Git whore is a command line utility that positions the people working on a project based upon the number of commits from the one having the least number of commits to the one having the most.
 
@@ -16,7 +16,7 @@ $ sudo make install
 
 Run following cammands in a repository.
 
-## Today's Whores
+## Whores of the day
 
 Run following command to check todays whores :dancer:
 
@@ -26,7 +26,7 @@ $ git whore today
 
 ![git whore](http://i.imgur.com/A2gWzgD.gif)
 
-## Yesterday's Whores
+## Whores from Yesterday
 Run following command to check yesterday whores :dancer::dancer:
 
 ```bash
@@ -36,7 +36,7 @@ $ git whore yesterday
 ![git whore](http://i.imgur.com/lrF9Rcp.gif)
 
 
-## Last Week's Whores
+## Whores from last week
 
 Run following command to check last week whores :dancer::dancer::dancer:
 
