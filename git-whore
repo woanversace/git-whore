@@ -3,12 +3,13 @@
 ## Case in-sensitive comparison
 shopt -s nocasematch
 
-if [[ $# -gt 1 ]] || [[ ! $1 =~ ^(yesterday|today|lastweek)$ ]] ; then
+since=${1:-"today"}
+
+if [[ $# -gt 1 ]] || [[ ! $since =~ ^(yesterday|today|lastweek)$ ]] ; then
     >&2 echo "Usage: $0 today|yesterday|lastweek"
     exit 1
 fi
 
-since=$1
 
 if [[ $since = "today" ]] ; then
     since="6am"
